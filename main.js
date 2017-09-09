@@ -40,5 +40,5 @@ else if(choice==="sq")
 }
 else
 {
-  alert("Invalid Input. Please Enter a Valid Number/Operation");
+  alert("Invalid Input. Please Enter a Valid Number/Operation.");
 }
