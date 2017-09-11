@@ -12,6 +12,40 @@ if(choice==="+")
 {
   var answer = firstNum+secondNum;
   alert("Your Answer is: " + answer);
+}
+else if(choice==="-")
+{
+  var answer = firstNum-secondNum;
+  alert("Your Answer is: " + answer);
+}
+else if(choice==="/")
+{
+  var answer = firstNum/secondNum;
+  alert("Your Answer is: " + answer);
+
+}
+else if(choice==="*")
+{
+  var answer = firstNum*secondNum;
+  alert("Your Answer is: " + answer);
+}
+else if(choice==="^")
+{
+ var answer = Math.pow(firstNum,secondNum);
+ alert("Your Answer is: " + answer);
+
+}
+else if(choice==="sq")
+{
+  var answer = Math.sqrt(firstNum);
+  alert("Your Answer is: " + answer);
+}
+else
+{
+  alert("Invalid Input. Please Enter a Valid Number/Operation.");
+}
+
+
 console.log("|  _________________  |");
 console.log("| |            "+answer+"   | |");
 console.log("| |_________________| |");
@@ -25,98 +59,3 @@ console.log("| |___|___|___| |___| |");
 console.log("| | . | 0 | = | | / | |");
 console.log("| |___|___|___| |___| |");
 console.log("|_____________________|");
-}
-else if(choice==="-")
-{
-  var answer = firstNum-secondNum;
-  alert("Your Answer is: " + answer);
-  console.log("|  _________________  |");
-console.log("| |            "+answer+"   | |");
-console.log("| |_________________| |");
-console.log("|  ___ ___ ___   ___  |");
-console.log("| | 7 | 8 | 9 | | + | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | 4 | 5 | 6 | | - | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | 1 | 2 | 3 | | x | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | . | 0 | = | | / | |");
-console.log("| |___|___|___| |___| |");
-console.log("|_____________________|");
-}
-else if(choice==="/")
-{
-  var answer = firstNum/secondNum;
-  alert("Your Answer is: " + answer);
-  console.log("|  _________________  |");
-console.log("| |            "+answer+"   | |");
-console.log("| |_________________| |");
-console.log("|  ___ ___ ___   ___  |");
-console.log("| | 7 | 8 | 9 | | + | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | 4 | 5 | 6 | | - | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | 1 | 2 | 3 | | x | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | . | 0 | = | | / | |");
-console.log("| |___|___|___| |___| |");
-console.log("|_____________________|");
-}
-else if(choice==="*")
-{
-  var answer = firstNum*secondNum;
-  alert("Your Answer is: " + answer);
-  console.log("|  _________________  |");
-console.log("| |            "+answer+"   | |");
-console.log("| |_________________| |");
-console.log("|  ___ ___ ___   ___  |");
-console.log("| | 7 | 8 | 9 | | + | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | 4 | 5 | 6 | | - | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | 1 | 2 | 3 | | x | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | . | 0 | = | | / | |");
-console.log("| |___|___|___| |___| |");
-console.log("|_____________________|");
-}
-else if(choice==="^")
-{
- var answer = Math.pow(firstNum,secondNum);
- alert("Your Answer is: " + answer);
- console.log("|  _________________  |");
-console.log("| |            "+answer+"   | |");
-console.log("| |_________________| |");
-console.log("|  ___ ___ ___   ___  |");
-console.log("| | 7 | 8 | 9 | | + | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | 4 | 5 | 6 | | - | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | 1 | 2 | 3 | | x | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | . | 0 | = | | / | |");
-console.log("| |___|___|___| |___| |");
-console.log("|_____________________|");
-}
-else if(choice==="sq")
-{
-  var answer = firstNum*firstNum;
-  alert("Your Answer is: " + answer);
-  console.log("|  _________________  |");
-console.log("| |            "+answer+"   | |");
-console.log("| |_________________| |");
-console.log("|  ___ ___ ___   ___  |");
-console.log("| | 7 | 8 | 9 | | + | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | 4 | 5 | 6 | | - | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | 1 | 2 | 3 | | x | |");
-console.log("| |___|___|___| |___| |");
-console.log("| | . | 0 | = | | / | |");
-console.log("| |___|___|___| |___| |");
-console.log("|_____________________|");
-}
-else
-{
-  alert("Invalid Input. Please Enter a Valid Number/Operation.");
-}
